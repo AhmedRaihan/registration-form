@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+
+<style>
+h1{
+	color: blue;
+    font-family: verdana;
+  }
+  
+h2{
+	color: green;
+    font-family: verdana;
+  }
+
+p{
+	color: tomato;
+ }
+</style>
+
+<body style="background-color:powderblue;">
+
+<h1>Registration Form</h1>
+
+<h2>Basic Information:</h2>
+
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br>
+  <label for="fname">Fathers name:</label>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="mname">Mothers name:</label>
+  <input type="text" id="mname" name="mname"><br>
+  
+  <p> Gender:</p>
+  
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  
+  <label for="dob">DOB:</label>
+  <input type="date" id="dob" name="dob"><br>
+
+  <label for="religion">Choose your Religion:</label>
+
+  <select name="religion" id="religion">
+  <option value="Islam">Islam</option>
+  <option value="Sanatan">Sanatan</option>
+  <option value="Buddish">Buddish</option>
+  <option value="Cristian">Cristian</option>
+  </select>
+  
+  <h2>Contact Information: </h2>
+  
+  <label for="paddress">Present Address:</label>
+  <input type="text" id="paddress" name="paddress"><br>
+  <label for="peraddress">Permanent Address:</label>
+  <input type="text" id="peraddress" name="peraddress"><br>
+  
+
+  <label for="phone">Phone:</label>
+  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+ 
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br>
+  
+  <a href="https://www.w3schools.com/">My Ref</a><br>
+  
+  <h2>Academic Information:</h2>
+  
+  <label for="ssc">SSC Year</label>
+  <input type="number" id="ssc" name="ssc"></br>
+  
+  <label for="sscI">SSC Instituation:</label>
+  <input type="text" id="sscI" name="sscI"><br>
+  
+   <label for="hsc">HSC Year</label>
+  <input type="number" id="hsc" name="hsc"></br>
+  
+  <label for="hscI">HSC Instituation:</label>
+  <input type="text" id="hscI" name="hscI"><br>
+
+</form>
+
+</body>
+</html>
